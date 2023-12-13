@@ -10,7 +10,7 @@ st.title("Streamlit Documentation Helper with LlamaIndex 💬")
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
-        {"role": "assistant", "content": "Ask a question about Streamlit's Python library!"}
+        {"role": "assistant", "content": "Ask a question about Streamlit's Python library!!!"}
     ]
 
 @st.cache_resource(show_spinner=False)
