@@ -1,7 +1,7 @@
 import streamlit as st
 from llama_index.core import VectorStoreIndex,SimpleDirectoryReader,ServiceContext,Document
 from llama_index.llms.openai import OpenAI
-from llama_index import SimpleDirectoryReader
+
 
 st.set_page_config(page_title="Streamlit Documentation Helper with LlamaIndex", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
